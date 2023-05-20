@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+echo "Hello world, quebrei a maldição"
+
+echo "Entrando no diretório:"
+cd ~
+
+echo "Aonde eu estou?"
+pwd
+
+echo "Listando o que tem dentro deste diretório"
+ls

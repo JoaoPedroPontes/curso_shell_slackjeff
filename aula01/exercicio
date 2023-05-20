@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+animal="gato"
+bebida="Agua"
+comida="Pizza"
+linguagem_favorita="JavaScript"
+jogo_favorito="The Last of Us"
+os="GNU/Linux"
+musica="Rock"
+console_favorito="Ps4"
+cor_favorita="preto"
+filme="Star Wars"
+
+
+echo "Meu animal favorito é o $animal"
+echo "A bebida que eu tomo diareamente se chama $bebida"
+echo "Minha comida predileta é $comida"
+echo "A linguagem de programação que eu mais uso é o $linguagem_favorita"
+echo "Um jogo que eu nunca vou esquecer quando eu joguei foi o $jogo_favorito"
+echo "O meu sistema operacional é $os"
+echo "Meu estilo musical é $rock"
+echo "Console que marcou minha infância foi o $console_favorito"
+echo "Adoro a cor $cor_favorita"
+echo "Um dos melhores filmes que eu ja assiste é o $filem"

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo -e "Escreva o nome: Joao\n"
+
+read -p "Escreva aqui: " nome
+echo
+
+test "$nome" = "Joao" && echo "Você colocou o nome, João" || echo "Você não colocou o nome, João'"

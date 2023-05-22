@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+ID=$(echo "$UID")
+diretorio="/home/joaop"
+
+echo "O ID do usuario logado no momento é: $ID"
+cd "$diretorio"
+echo "Executando comando PWD $(pwd)"
+
+diretorio="/home"
+echo "Entrando no diretório $diretorio" 
+cd "$diretorio"
+pwd

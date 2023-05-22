@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "Qual a linguagem do sistema?"
+echo -e "$LANG\n"
+
+echo "Qual o diretório do usuário Logado?"
+echo -e "$HOME\n"
+
+echo "Qual o nome do usuário logado?"
+echo -e "$USER\n"
+
+echo "Qual seu nome?"
+echo  "$NOME"

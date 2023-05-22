@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+listagem=$(ls /boot)
+listagem_dois=$(ls /home)
+listagem_tres=$(ls /home/invalid)
+
+
+echo -e "Listando '/boot'\n$listagem \n"
+echo -e "Listando '/home'\n$listagem_dois \n"
+echo -e "Listando '/home/invalid'\n$listagem_tres \n" 

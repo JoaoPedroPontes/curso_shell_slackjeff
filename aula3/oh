@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Nome do autor do programa
+# Joao Pontes
+
+# Aqui ira imprimir 
+echo "Oi tudo bem?"
+read -p "Qual sua idade? " idade # Entra com dados
+pwd
+ls
+#==================================================
+# Na linha de baixa vai fazer varias coisas
+# Vai imprimir na tela
+#
+#==================================================

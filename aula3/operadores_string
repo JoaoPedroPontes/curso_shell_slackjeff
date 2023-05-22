@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Fazendo várias operações
+# Com o comando test e seus operadores:
+# =    (Confere se é igual)
+# !=   (Confere se NÂO é igual)
+# -n   (Confere se String ou Variável NÂO é nula )
+# -z   (Confere se String ou Variável é nula)
+
+# >
+# <
+# >=
+# <=
+
+nome_conferir="Joao"
+
+#Iniciando o programa
+read -p "Qual seu nome? " nome
+test -z "$nome" \
+&& { echo "A sua variável é nula. ADEUS" ; exit ; }  \
+|| echo "A variável NÂO é nula!"
+
+echo "Continuei"
+
+test "$nome" = "$nome_conferir" && echo "$nome é igual a $nome_conferir" || echo "$nome NÂO é igual a $nome_conferir"
+
+

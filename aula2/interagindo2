@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Qual diretório você quer entrar?"
+read diretorio
+
+cd "$diretorio"
+echo "Você está em $(pwd)"
